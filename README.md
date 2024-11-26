@@ -12,5 +12,5 @@ Comparing STAC API backends.
 | Performance | 🤷‍♂️[^3] | 🤷‍♂️ | 🤷‍♂️ |
 
 [^1]: **stac-geoparquet** is untried as a backend for a STAC API, and we include it in this table so we can update as we learn more
-[^2]: Include both elasticsearch and opensearch implementations.
+[^2]: Includes both elasticsearch and opensearch implementations.
 [^3]: **pgstac** performs best when doing an ordered search on an indexed field, such as `datetime`
